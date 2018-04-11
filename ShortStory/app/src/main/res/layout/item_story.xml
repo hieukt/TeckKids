@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="10dp"
+            android:layout_height="100dp"
+            android:background="@color/colorPrimary" />
+
+        <TextView
+            android:id="@+id/txt_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="5dp"
+            android:layout_marginStart="5dp"
+            android:layout_toEndOf="@+id/textView"
+            android:layout_toRightOf="@+id/textView"
+            android:text="ABC"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/txt_author"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txt_title"
+            android:layout_marginLeft="5dp"
+            android:layout_marginStart="5dp"
+            android:layout_toEndOf="@+id/textView"
+            android:layout_toRightOf="@+id/textView"
+            android:text="ABC"
+            android:textSize="16sp"
+            android:textStyle="italic" />
+
+        <ImageView
+            android:id="@+id/img_story"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true" />
+    </RelativeLayout>
+</LinearLayout>
